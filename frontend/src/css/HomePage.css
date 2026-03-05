@@ -1,0 +1,87 @@
+.home-hero {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.home-hero h1 {
+  margin: 0 0 0.5rem;
+}
+
+.home-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-search {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.home-search input {
+  flex: 1;
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+}
+
+.home-search button {
+  padding: 0.45rem 0.9rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.home-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.home-category button {
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  padding: 0.25rem 0.75rem;
+  background-color: #ffffff;
+}
+
+.home-category button.active {
+  border-color: #f97316;
+  background-color: #f97316;
+  color: #111827;
+}
+
+.home-grid-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.home-pagination {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.home-pagination button {
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  padding: 0.25rem 0.6rem;
+  background-color: #ffffff;
+}
+
+.home-pagination button.active {
+  background-color: #111827;
+  color: #f9fafb;
+  border-color: #111827;
+}
+
+@media (max-width: 640px) {
+  .home-search {
+    flex-direction: column;
+  }
+}
+

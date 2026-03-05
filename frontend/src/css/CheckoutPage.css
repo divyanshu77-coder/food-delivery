@@ -1,0 +1,24 @@
+.checkout-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.checkout-summary {
+  margin-top: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.checkout-btn {
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.55rem 0.9rem;
+  background-color: #111827;
+  color: #f9fafb;
+}
+
