@@ -5,7 +5,7 @@ const FoodCard = ({ food, onAdd }) => {
   return (
     <div className="food-card">
       <div className="food-card-image-wrapper">
-        <img src={`http://localhost:5000${food.image}`} alt={food.name} className="food-card-image" />
+        <img src={`https://food-delivery-backend-nr8u.onrender.com${food.image}`} alt={food.name} className="food-card-image" />
       </div>
       <div className="food-card-body">
         <h3 className="food-card-title">{food.name}</h3>
